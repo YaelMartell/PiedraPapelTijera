@@ -93,6 +93,16 @@ namespace PiedraPapelTijera.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Gemini_Generated_Image_1lka7n1lka7n1lka {
+            get {
+                object obj = ResourceManager.GetObject("Gemini_Generated_Image_1lka7n1lka7n1lka", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PapelAura {
             get {
                 object obj = ResourceManager.GetObject("PapelAura", resourceCulture);
