@@ -21,19 +21,19 @@ namespace PiedraPapelTijera
 
         private void button1_Click(object sender, EventArgs e)
         {
-            pictureBox1.Image = Properties.Resources.Captura_de_pantalla_2026_08_31_083122;
+            pictureBox1.Image = Properties.Resources.PiedraAura;
             op = 1;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            pictureBox1.Image = Properties.Resources.Captura_de_pantalla_2026_08_31_083103;
+            pictureBox1.Image = Properties.Resources.PapelAura;
             op = 2;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            pictureBox1.Image = Properties.Resources.Captura_de_pantalla_2026_08_31_083117;
+            pictureBox1.Image = Properties.Resources.TijeraAura;
             op = 3;
         }
 

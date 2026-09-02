@@ -63,9 +63,9 @@ namespace PiedraPapelTijera.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Captura_de_pantalla_2026_08_31_083103 {
+        internal static System.Drawing.Bitmap BotonStart {
             get {
-                object obj = ResourceManager.GetObject("Captura de pantalla 2026-08-31 083103", resourceCulture);
+                object obj = ResourceManager.GetObject("BotonStart", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace PiedraPapelTijera.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Captura_de_pantalla_2026_08_31_083117 {
+        internal static System.Drawing.Bitmap FondoJuego {
             get {
-                object obj = ResourceManager.GetObject("Captura de pantalla 2026-08-31 083117", resourceCulture);
+                object obj = ResourceManager.GetObject("FondoJuego", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,39 @@ namespace PiedraPapelTijera.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Captura_de_pantalla_2026_08_31_083122 {
+        internal static System.Drawing.Bitmap FondoMenu {
             get {
-                object obj = ResourceManager.GetObject("Captura de pantalla 2026-08-31 083122", resourceCulture);
+                object obj = ResourceManager.GetObject("FondoMenu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PapelAura {
+            get {
+                object obj = ResourceManager.GetObject("PapelAura", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PiedraAura {
+            get {
+                object obj = ResourceManager.GetObject("PiedraAura", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TijeraAura {
+            get {
+                object obj = ResourceManager.GetObject("TijeraAura", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

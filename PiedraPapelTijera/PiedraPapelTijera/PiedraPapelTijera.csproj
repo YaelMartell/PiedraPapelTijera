@@ -68,18 +68,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -90,13 +90,22 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Captura de pantalla 2026-08-31 083103.png" />
+    <None Include="Resources\FondoJuego.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Captura de pantalla 2026-08-31 083117.png" />
+    <None Include="Resources\PiedraAura1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Captura de pantalla 2026-08-31 083122.png" />
+    <None Include="Resources\PapelAura1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TijeraAura1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotonStart.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
