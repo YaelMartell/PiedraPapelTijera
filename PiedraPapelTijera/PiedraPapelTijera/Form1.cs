@@ -42,7 +42,7 @@ namespace PiedraPapelTijera
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            op = 0;
         }
 
         private void Form1_Load(object sender, EventArgs e)
