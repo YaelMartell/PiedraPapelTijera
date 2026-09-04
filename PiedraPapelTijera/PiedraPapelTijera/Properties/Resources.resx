@@ -142,4 +142,8 @@
   <data name="Ogryzek - AURA (Official Music Video).mp3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ogryzek - AURA (Official Music Video).mp3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="datos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\datos.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+    <comment>mini base de datos</comment>
+  </data>
 </root>

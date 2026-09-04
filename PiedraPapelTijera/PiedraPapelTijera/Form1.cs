@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,6 +16,8 @@ namespace PiedraPapelTijera
         public Form1()
         {
             InitializeComponent();
+            Form2.musica();
+           
         }
 
         int op = 0;
@@ -39,26 +42,7 @@ namespace PiedraPapelTijera
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (op == 1)
-            {
-                Properties.Settings.Default.contPi++;
-                Properties.Settings.Default.Save();
-            }
-            else if (op == 2)
-            {
-                Properties.Settings.Default.contPa++;
-                Properties.Settings.Default.Save();
-            }
-            else
-            {
-                Properties.Settings.Default.contTi++;
-                Properties.Settings.Default.Save();
-            }
-
-            Properties.Settings.Default.totDat++;
-            Properties.Settings.Default.Save();
-
-
+            op = 0;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -68,7 +52,7 @@ namespace PiedraPapelTijera
 
         private void button5_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
+            this.Close();
         }
     }
 }
