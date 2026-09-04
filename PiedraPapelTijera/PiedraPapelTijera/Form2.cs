@@ -1,44 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Media;
-using System.IO;
-
+using System.Windows.Forms;
 
 namespace PiedraPapelTijera
 {
-    public static class Globals
-    {
-        public static string rutaArchivo = "datos.txt";
-    }
-    
+
     public partial class Form2 : Form
     {
         public Form2()
         {
             InitializeComponent();
-            musica();
+            //musica();
         }
-        public  static SoundPlayer sonido = new SoundPlayer(Properties.Resources.Ogryzek___AURA__Official_Music_Video__mp3);
+        public static SoundPlayer sonido = new SoundPlayer(Properties.Resources.Ogryzek___AURA__Official_Music_Video__mp3);
         public static void musica()
         {
             try
             {
                 sonido.PlayLooping();
             }
-            catch { 
+            catch
+            {
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 f1=new Form1();
+            Form1 f1 = new Form1();
             sonido.Stop();
             this.SetVisibleCore(false);
             f1.ShowDialog();
@@ -56,5 +45,9 @@ namespace PiedraPapelTijera
         {
             this.Close();
         }
+    }
+    public static class Globals
+    {
+        public static string rutaArchivo = "datos.txt";
     }
 }

@@ -8,6 +8,7 @@ using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace PiedraPapelTijera
 {
@@ -16,7 +17,7 @@ namespace PiedraPapelTijera
         public Form1()
         {
             InitializeComponent();
-            Form2.musica();
+            //Form2.musica();
            
         }
 
