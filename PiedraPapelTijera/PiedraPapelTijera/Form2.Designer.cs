@@ -53,9 +53,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(227, 1001);
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.button2.Location = new System.Drawing.Point(47, 1115);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 97);
+            this.button2.Size = new System.Drawing.Size(213, 107);
             this.button2.TabIndex = 1;
             this.button2.Text = "Salir";
             this.button2.UseVisualStyleBackColor = true;
