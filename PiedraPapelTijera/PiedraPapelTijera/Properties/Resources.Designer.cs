@@ -63,9 +63,59 @@ namespace PiedraPapelTijera.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BotonPi {
+            get {
+                object obj = ResourceManager.GetObject("BotonPi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BotonStart {
             get {
                 object obj = ResourceManager.GetObject("BotonStart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BotSal {
+            get {
+                object obj = ResourceManager.GetObject("BotSal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BotSele {
+            get {
+                object obj = ResourceManager.GetObject("BotSele", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BotTij {
+            get {
+                object obj = ResourceManager.GetObject("BotTij", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_7_sept_2026__08_29_57_a_m_ {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 7 sept 2026, 08_29_57 a.m.", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
