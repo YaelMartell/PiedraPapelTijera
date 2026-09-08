@@ -121,6 +121,13 @@
   <data name="FondoJuego" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FondoJuego.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Gemini_Generated_Image_1lka7n1lka7n1lka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gemini_Generated_Image_1lka7n1lka7n1lka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="datos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\datos.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+    <comment>mini base de datos</comment>
+  </data>
   <data name="PiedraAura" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PiedraAura1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -133,17 +140,25 @@
   <data name="BotonStart" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BotonStart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PapelAura" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PapelAura1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Gemini_Generated_Image_1lka7n1lka7n1lka" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Gemini_Generated_Image_1lka7n1lka7n1lka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Ogryzek - AURA (Official Music Video).mp3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ogryzek - AURA (Official Music Video).mp3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="datos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\datos.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-    <comment>mini base de datos</comment>
+  <data name="PapelAura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PapelAura1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BotTij" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BotTij.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChatGPT Image 7 sept 2026, 08_29_57 a.m." type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChatGPT Image 7 sept 2026, 08_29_57 a.m..png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BotonPi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BotonPi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BotSal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BotSal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BotSele" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BotSele.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

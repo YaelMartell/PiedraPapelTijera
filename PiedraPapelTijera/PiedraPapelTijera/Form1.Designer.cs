@@ -43,7 +43,13 @@
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImage = global::PiedraPapelTijera.Properties.Resources.BotonPi;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(810, 507);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
@@ -55,37 +61,58 @@
             // button2
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.Location = new System.Drawing.Point(847, 631);
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackgroundImage = global::PiedraPapelTijera.Properties.Resources.ChatGPT_Image_7_sept_2026__08_29_57_a_m_;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(810, 615);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(160, 56);
+            this.button2.Size = new System.Drawing.Size(233, 96);
             this.button2.TabIndex = 1;
-            this.button2.Text = "Papel";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
             this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button3.Location = new System.Drawing.Point(847, 719);
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.BackgroundImage = global::PiedraPapelTijera.Properties.Resources.BotTij;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(810, 719);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(160, 56);
+            this.button3.Size = new System.Drawing.Size(233, 96);
             this.button3.TabIndex = 2;
-            this.button3.Text = "Tijera";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
             this.button4.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.button4.BackColor = System.Drawing.Color.Transparent;
+            this.button4.BackgroundImage = global::PiedraPapelTijera.Properties.Resources.BotSele;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Location = new System.Drawing.Point(752, 852);
             this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(365, 115);
             this.button4.TabIndex = 4;
-            this.button4.Text = "Seleccionar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // pictureBox2
@@ -114,12 +141,19 @@
             // 
             // Salir
             // 
-            this.Salir.Location = new System.Drawing.Point(64, 911);
+            this.Salir.BackColor = System.Drawing.Color.Transparent;
+            this.Salir.BackgroundImage = global::PiedraPapelTijera.Properties.Resources.BotSal;
+            this.Salir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Salir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Salir.FlatAppearance.BorderSize = 0;
+            this.Salir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Salir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Salir.Location = new System.Drawing.Point(52, 886);
             this.Salir.Name = "Salir";
-            this.Salir.Size = new System.Drawing.Size(160, 56);
+            this.Salir.Size = new System.Drawing.Size(149, 81);
             this.Salir.TabIndex = 6;
-            this.Salir.Text = "Salir";
-            this.Salir.UseVisualStyleBackColor = true;
+            this.Salir.UseVisualStyleBackColor = false;
             this.Salir.Click += new System.EventHandler(this.button5_Click);
             // 
             // Form1

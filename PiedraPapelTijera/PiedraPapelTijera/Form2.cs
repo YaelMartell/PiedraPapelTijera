@@ -11,7 +11,7 @@ namespace PiedraPapelTijera
         public Form2()
         {
             InitializeComponent();
-            //musica();
+            musica();
         }
         public static SoundPlayer sonido = new SoundPlayer(Properties.Resources.Ogryzek___AURA__Official_Music_Video__mp3);
         public static void musica()
@@ -28,7 +28,7 @@ namespace PiedraPapelTijera
         private void button1_Click(object sender, EventArgs e)
         {
             Form1 f1 = new Form1();
-            sonido.Stop();
+            //sonido.Stop();
             this.SetVisibleCore(false);
             f1.ShowDialog();
             this.SetVisibleCore(true);
