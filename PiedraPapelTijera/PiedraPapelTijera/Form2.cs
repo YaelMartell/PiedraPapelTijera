@@ -34,20 +34,19 @@ namespace PiedraPapelTijera
             this.SetVisibleCore(true);
         }
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
-            List<int> datos = new List<int>();
-
-
-        }
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
     public static class Globals
     {
-        public static string rutaArchivo = "datos.txt";
+       
     }
 }
