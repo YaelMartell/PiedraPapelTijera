@@ -132,6 +132,16 @@ namespace PiedraPapelTijera.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap EMPATE {
+            get {
+                object obj = ResourceManager.GetObject("EMPATE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FondoJuego {
             get {
                 object obj = ResourceManager.GetObject("FondoJuego", resourceCulture);
@@ -145,6 +155,16 @@ namespace PiedraPapelTijera.Properties {
         internal static System.Drawing.Bitmap FondoMenu {
             get {
                 object obj = ResourceManager.GetObject("FondoMenu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GANASTE {
+            get {
+                object obj = ResourceManager.GetObject("GANASTE", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -174,6 +194,16 @@ namespace PiedraPapelTijera.Properties {
         internal static System.Drawing.Bitmap PapelAura {
             get {
                 object obj = ResourceManager.GetObject("PapelAura", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PERDISTE {
+            get {
+                object obj = ResourceManager.GetObject("PERDISTE", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

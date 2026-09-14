@@ -89,6 +89,7 @@ string op= string.Empty;
     {
         Console.WriteLine("¡Es un empate!");
         empates++;
+        pictureBox3.Image = Properties.Resources.EMPATE;
     }
     else if ((opcionMaquina == "piedra" && op == "tijera") ||
              (opcionMaquina == "papel" && op == "piedra") ||
@@ -96,6 +97,7 @@ string op= string.Empty;
     {
         Console.WriteLine("¡Ganó la máquina!");
         victoriasMaquina++;
+                pictureBox3.Image = Properties.Resources.PERDISTE;
 
         // Le damos más puntos a la opción que hizo ganar
         if (opcionMaquina == "piedra" && puntosPiedra<(puntosTijera+puntosPapel)) puntosPiedra += 5.0;
@@ -108,6 +110,7 @@ string op= string.Empty;
             {
                 Console.WriteLine("¡Ganaste tú!");
                 victoriasUsuario++;
+                pictureBox3.Image= Properties.Resources.GANASTE;
 
                 // Si la máquina pierde, le restamos un poco de puntos a esa opción 
                 // para que no la use tanto (sin dejar que baje de 1 punto)
